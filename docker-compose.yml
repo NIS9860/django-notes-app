@@ -1,0 +1,7 @@
+version: '3'
+services:
+    notes-app:
+        ports:
+            - '8000:8000'
+        image: nischal9860/web-notes-app:latest
+        container_name: notes-app-web-cont
